@@ -1,0 +1,12 @@
+{
+    "port": 5000,
+    "endpoint": "http://localhost:5000/api",
+    "db": {
+      "uri": "mongodb://localhost:27017/",
+      "name": "mshope"
+    },
+    "signIn": {
+      "jwtSecret": "2aea76b355db945232bbc033093ce5f7",
+      "jwtExpiresIn": "30d"
+    }
+  }

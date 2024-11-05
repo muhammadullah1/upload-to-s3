@@ -1,0 +1,3 @@
+config/environments/development.json
+config/environments/test.json
+node_modules/

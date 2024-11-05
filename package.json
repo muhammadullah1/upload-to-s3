@@ -1,0 +1,23 @@
+{
+  "name": "s3_express",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1691.0",
+    "convict": "^6.2.4",
+    "convict-format-with-validator": "^6.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "mongoose": "^8.8.0",
+    "nodemon": "^3.1.7",
+    "uuid": "^11.0.2"
+  }
+}
